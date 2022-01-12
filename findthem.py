@@ -14,16 +14,14 @@ print(
 )
 
 help_menu = '''
-Help
-
-NOTE: PLEASE PUT ALL OPTIONS IN DOUBLE QUOTES
-
 -h                 Display this menu
 -n <name>          Name of target
 -r <results>       Number of results to return
 OPTIONAL
--s <site>          Site to look on
--c <custom search> Search for a custom query NOTE: Only -r is allowed (and obligatory) when using custom query
+-s <site>          Site on which to search
+-c <custom search> Search for a custom query NOTE: Only -r is allowed (and mandatory) when using custom query
+
+!REMEMBER TO PUT ALL OPTIONS IN DOUBLE QUOTES!
 '''
 
 isSite = False
